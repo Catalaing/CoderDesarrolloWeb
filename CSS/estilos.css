@@ -1,0 +1,546 @@
+*{margin: 0;
+padding: 0;}
+
+
+html { font-size: 62.5%;
+}
+
+body{  
+    font-family: montserrat;
+    box-sizing: border-box;
+}
+
+
+.header{
+    background-color: bisque;
+    height: 10rem;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.monograma{
+    font-family:'cinzel',serif;
+    font-size: 16px;
+    float: left;
+    position: relative;
+    margin-left: 5%;
+    line-height: 20px;
+    text-align: center;
+    top: 40%;
+}
+
+nav ul {
+    list-style: none;
+}
+ nav ul li {
+     display: inline-block;
+     padding: 25px;
+}
+
+.navegador{
+    height: 100px;
+    width: 500px;
+    float: right;
+    line-height: 100px;
+    
+   
+} 
+
+.enlaceHeader{ 
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.enlaceHeader:hover{
+    color:grey;
+    text-decoration: none;
+}
+
+.enlaceHeader2{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+
+.enlaceHeader2:hover{
+    color:grey;
+    text-decoration: none;
+}
+
+
+.presentacion {
+    height: 450px;
+    background-image: url(../Multimedia/imagenhome.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    line-height: 500px;
+    font-size: medium;
+    
+}
+
+.presentacion:hover {
+    background-image: url(../Multimedia/code.jpg);
+    opacity: 70%;
+    color: white;
+    line-height:365px;
+    transition: 1s;
+}
+
+
+.workstyle{
+
+    height: 70px;
+    font-family:'Montserrat',sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align-last: center;
+    background-image: linear-gradient(bisque, grey);
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 3px;
+    padding-top: 30px;   
+}
+
+
+.areas {
+    background-image: linear-gradient(grey,black);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90px;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: montserrat;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.enlaceAreas{ 
+    color: bisque;
+    text-decoration:none;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+
+.enlaceAreas:hover{
+    color:orange
+}
+
+.grafico{ 
+    width: 20%;
+}
+
+.web {
+    width: 20%;
+}
+
+.editorial{
+    width: 20%;
+}
+
+.foto {
+    width: 20%;
+}
+
+
+
+
+.footer {
+    height: 50px;
+    background-color: black;
+    margin-left: 2%;
+    margin-right: 2%;
+    color:bisque;
+    font-variant: small-caps;
+    line-height: 33px;
+    font-size: 15px;
+    font-weight: medium;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+
+.field2place{ 
+    float: right;
+}
+
+.titulosint{
+    font-family: 'montserrat subrayada', sans-serif ;
+    font-size: 15px;
+}
+
+
+.baseSecciones{
+    height: 690px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-image: linear-gradient(#ffe4c4 60%, grey);
+}
+
+.contenedorContacto{ 
+    height: 690px;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+.carouselItem2{
+    height: 650px !important;
+    width: 450px !important;
+    margin-left: 460px !important;
+    filter: sepia(30%) !important;
+}
+
+.carouselItem3{
+    height: 650px !important;
+    width: 450px !important;
+    margin-left: 460px !important;
+    filter: sepia(30%) !important;
+}
+
+.carouselItem4{
+    height: 650px !important;
+    width: 450px !important;
+    margin-left: 460px !important;
+    filter: sepia(30%) !important;
+}
+
+.carouselItem1:hover{
+    filter: none !important;
+
+}
+
+
+.carouselItem2:hover{
+    filter: none !important;
+
+}
+
+.carouselItem3:hover{
+    filter: none !important;
+
+}
+
+.carouselItem4:hover{
+    filter: none !important;
+
+}
+
+.carouselItem5{
+    height: 650px !important;
+    width: 450px !important;
+    margin-left: 460px !important;
+    filter: sepia(30%) !important;
+}
+
+.carouselItem5:hover{
+    filter: none !important;
+
+}
+
+.carouselItem6{
+    height: 550px !important;
+    width: 750px !important;
+    margin-left: 330px !important;
+    margin-top: 70px !important;
+    filter: sepia(30%) !important;
+}
+
+.carouselItem6:hover{
+    filter: none !important;
+
+}
+
+.carouselItem7{
+    height: 550px !important;
+    width: 750px !important;
+    margin-left: 330px !important;
+    margin-top: 70px !important;
+    filter: sepia(30%) !important;
+}
+
+.carouselItem7:hover{
+    filter: none !important;
+
+}
+
+.carouselItem8{
+    height: 550px !important;
+    width: 750px !important;
+    margin-left: 330px !important;
+    margin-top: 70px !important;
+    filter: sepia(30%) !important;
+}
+
+.carouselItem8:hover{
+    filter: none !important;
+
+}
+
+.carouselItem9{
+    height: 550px !important;
+    width: 750px !important;
+    margin-left: 330px !important;
+    margin-top: 70px !important;
+    filter: sepia(30%) !important;
+}
+
+.carouselItem9:hover{
+    filter: none !important;
+
+}
+
+.carouselItem10{
+    height: 550px !important;
+    width: 750px !important;
+    margin-left: 330px !important;
+    margin-top: 70px !important;
+    filter: sepia(30%) !important;
+}
+
+.carouselItem10:hover{
+    filter: none !important;
+
+}
+
+.carouselItem11{
+    height: 550px !important;
+    width: 750px !important;
+    margin-left: 330px !important;
+    margin-top: 70px !important;
+    filter: sepia(30%) !important;
+}
+
+.carouselItem11:hover{
+    filter: none !important;
+
+}
+
+.carouselItem12{
+    height: 550px !important;
+    width: 750px !important;
+    margin-left: 330px !important;
+    margin-top: 70px !important;
+    filter: sepia(30%) !important;
+}
+
+.carouselItem12:hover{
+    filter: none !important;
+
+}
+
+.carouselItem13{
+    height: 550px !important;
+    width: 750px !important;
+    margin-left: 330px !important;
+    margin-top: 70px !important;
+    filter: sepia(30%) !important;
+}
+
+.carouselItem13:hover{
+    filter: none !important;
+}
+
+.carouselItem14{
+    height: 650px !important;
+    width: 450px !important;
+    margin-left: 460px !important;
+    filter: sepia(30%) !important;
+}
+
+.carouselItem14:hover{
+    filter: none !important;
+
+}
+
+.carouselItem15{
+    height: 650px !important;
+    width: 450px !important;
+    margin-left: 460px !important;
+    filter: sepia(30%) !important;
+}
+.carouselItem15:hover{
+    filter: none !important;
+
+}
+
+.carouselItem16{
+    height: 650px !important;
+    width: 450px !important;
+    margin-left: 460px !important;
+    filter: sepia(30%) !important;
+}
+.carouselItem16:hover{
+    filter: none !important;
+
+}
+
+.carouselItem17{
+    height: 400px !important;
+    width: 550px !important;
+    margin-left: 400px !important;
+    margin-top: 90px !important ;
+    filter: sepia(30%) !important;
+}
+.carouselItem17:hover{
+    filter: none !important;
+}
+
+.carouselItem18{
+    height: 500px !important;
+    width: 550px !important;
+    margin-left: 400px !important;
+    margin-top: 90px !important ;
+    filter: sepia(30%) !important;
+}
+.carouselItem18:hover{
+    filter: none !important;
+}
+
+
+.carouselItem19{
+    height: 500px !important;
+    width: 750px !important;
+    margin-left: 320px !important;
+    margin-top: 90px !important ;
+    filter: sepia(30%) !important;
+}
+.carouselItem19:hover{
+    filter: none !important;
+}
+
+.carouselItem20{
+    height: 650px !important;
+    width: 450px !important;
+    margin-left: 460px !important;
+    filter: sepia(30%) !important;
+}
+.carouselItem20:hover{
+    filter: none !important;
+
+}
+
+.carouselItem21{
+    height: 500px !important;
+    width: 1000px !important;
+    margin-left: 180px !important;
+    margin-top: 90px !important ;
+    filter: sepia(30%) !important;
+}
+.carouselItem21:hover{
+    filter: none !important;
+}
+
+.carouselItem22{
+    height: 500px !important;
+    width: 1000px !important;
+    margin-left: 180px !important;
+    margin-top: 90px !important ;
+    filter: sepia(30%) !important;
+}
+.carouselItem22:hover{
+    filter: none !important;
+}
+
+.carouselItem23{
+    height: 500px !important;
+    width: 1000px !important;
+    margin-left: 180px !important;
+    margin-top: 90px !important ;
+    filter: sepia(30%) !important;
+}
+.carouselItem23:hover{
+    filter: none !important;
+}
+
+.carouselItem24{
+    height: 500px !important;
+    width: 1000px !important;
+    margin-left: 180px !important;
+    margin-top: 90px !important ;
+    filter: sepia(30%) !important;
+}
+.carouselItem24:hover{
+    filter: none !important;
+}
+.carouselItem25{
+    height: 500px !important;
+    width: 1000px !important;
+    margin-left: 180px !important;
+    margin-top: 90px !important ;
+    filter: sepia(30%) !important;
+}
+.carouselItem25:hover{
+    filter: none !important;
+}
+.carouselItem26{
+    height: 500px !important;
+    width: 1000px !important;
+    margin-left: 180px !important;
+    margin-top: 90px !important ;
+    filter: sepia(30%) !important;
+}
+.carouselItem26:hover{
+    filter: none !important;
+}
+
+.carouselItem27{
+    height: 650px !important;
+    width: 1000px !important;
+    margin-left: 180px !important;
+    margin-top: 30px !important ;
+    filter: sepia(30%) !important;
+}
+.carouselItem27:hover{
+    filter: none !important;
+}
+.carouselItem28{
+    height: 650px !important;
+    width: 1000px !important;
+    margin-left: 180px !important;
+    margin-top: 30px !important ;
+    filter: sepia(30%) !important;
+}
+.carouselItem28:hover{
+    filter: none !important;
+}
+
+.carouselItem29{
+    height: 650px !important;
+    width: 300px !important;
+    margin-left: 535px !important;
+    margin-top: 20px !important ;
+    filter: sepia(30%) !important;
+}
+.carouselItem29:hover{
+    filter: none !important;
+}
+.carouselItem30{
+    height: 500px !important;
+    width: 650px !important;
+    margin-left: 380px !important;
+    margin-top: 90px !important ;
+    filter: sepia(30%) !important;
+}
+.carouselItem30:hover{
+    filter: none !important;
+}
